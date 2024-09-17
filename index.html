@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Weather Web</h1>
+            
+        </div>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <i class="fa-solid fa-arrows-rotate refresh" > </i>
+
+            <section id="weather-overview">
+
+                <img class="weather-icon" src="/Practise/img/placeholder.jpeg">
+                <h2 id="temp"></h2>
+                <p id="feels"></p>
+
+                <p id="description">mmkm</p>                
+
+            </section>
+
+            <section id="weather-details">
+                <div class="card">
+                    <div class="card-icon">💧</div>
+                    <p id="humidity">Humididd%</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💨</div>
+                    <p><b>Wind:  </b></p>
+                    <p id="wind-speed">Spd km/h</p>
+                    <p id="wind-dir">Didkm/h</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌞</div>
+                    <p id="uv-index">UV Id</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🌧️</div>
+                    <p id="precip">Precidd%</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔍</div>
+                    <p id="pressure">Pda</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">👁️</div>
+                    <p id="visibility">Vi33333333333km</p>
+                </div>
+            </section>
+
+            <section id="location-info">
+                <h3 id="city">City Name</h3>
+                <p id="state">State</p>
+                <p id="country">Country</p>
+                <p id="coords">Lat: xx.x, Lon: xx.x</p>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Weather data provided by 'Weather Stack'</p>
+            <p>Version 1.0 | Contact: anantgupta1109@gmail.com</p>
+        </div>
+    </footer>
+
+    <script src="app.js" ></script>
+</body>
+</html>

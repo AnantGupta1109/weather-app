@@ -1,0 +1,129 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    padding-bottom: 80px;
+}
+
+header {
+    background: #007BFF;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.refresh {
+    cursor: pointer;
+    font-size: large;
+    bottom: 30px;
+    display: block;
+    margin: 5px 5px 80px 5px;
+    justify-self: conten;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.search-container {
+    margin-top: 10px;
+}
+
+.search {
+    padding: 10px;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+}
+
+#search-btn {
+    padding: 10px;
+    border: none;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-btn:hover {
+    background-color: #004494;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#weather-overview {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.weather-icon {
+    height: 60px;
+    width: 60px;
+    font-size: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#weather-details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+
+main {
+    
+    padding: 100px 0 20px;
+    visibility: hidden;
+}
+.card {
+    justify-items: center;
+    align-content: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+#location-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background: #007BFF;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position:  static;
+    bottom: 0;
+    width: 100%;
+}
